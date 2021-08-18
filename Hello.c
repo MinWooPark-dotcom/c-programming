@@ -1,6 +1,7 @@
-#include<stdio.h>
-int main(void) 
+#include <stdio.h>
+int main(void)
 {
-    printf("Hello C world \n");
+    printf("Hello C world");
+
     return 0;
 }
