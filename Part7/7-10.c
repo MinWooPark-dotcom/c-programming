@@ -1,21 +1,17 @@
 #include <stdio.h>
 int main(void)
 {
-    int i = 2;
-    int j = 1;
+    int i, j;
     int result = 0;
 
-    while(i<10)
+    for (i = 2; i < 10; i++)
     {
-        while(j<10)
+        for (j = 1; j < 10; j++)
         {
             result = i * j;
             printf("%d * %d = %d \n", i, j, result);
-            j++;
         }
-        i++; // 단을 증가
-        j = 1; // 단을 시작 
-        printf("--------\n");
+        printf("-------\n");
     }
 
     return 0;
