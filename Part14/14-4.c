@@ -5,7 +5,7 @@ void func(int (*p)[4], int num1, int num2);
 int main(void)
 {
     int array[2][4] = {10, 20, 30, 40, 50, 60, 70, 80};
-    func(array, sizeof(array) / 16, sizeof(array) / 8);
+    func(array, sizeof(array) / 16, sizeof(array) / 8); // sizeof(array)/16: 행, sizeof(array)/8: 열
     return 0;
 }
 
